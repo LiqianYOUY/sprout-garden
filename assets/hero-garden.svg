@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" fill="none" role="img" aria-label="Quiet garden potting corner with plants and watering can">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2=".4"><stop stop-color="#EDF0E4"/><stop offset="1" stop-color="#DDE5D3"/></linearGradient>
+ <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F5F5E8"/><stop offset="1" stop-color="#C7D4BD"/></linearGradient>
+ <linearGradient id="terracotta" x1="0" x2="1"><stop stop-color="#D49A77"/><stop offset="1" stop-color="#B97958"/></linearGradient>
+ <path id="leaf" d="M0 0C-25-2-40-25-33-47C-11-47 4-25 0 0Z"/>
+</defs>
+<path d="M0 0H1200V400H0Z" fill="url(#bg)"/>
+<circle cx="1094" cy="5" r="280" fill="#E9EBDD" opacity=".7"/>
+<path d="M689 400Q744 303 830 295Q1009 269 1200 340V400Z" fill="#D3DDC8" opacity=".65"/>
+<path d="M807 91L946 25L1085 91V291H807Z" fill="url(#glass)" stroke="#ACB79B" stroke-width="5"/>
+<path d="M807 91H1085M946 27V290M876 60V289M1016 61V289M809 191H1084" stroke="#AFBA9F" stroke-width="4"/>
+<path d="M821 105L861 105L821 168ZM889 105H932L889 178ZM960 105H1002L960 177ZM1029 105H1072L1029 178Z" fill="#FFFFFF" opacity=".22"/>
+<path d="M954 249Q967 198 994 182M963 224Q936 199 940 170M972 207Q997 193 1007 163" stroke="#9EAF8D" stroke-width="3" opacity=".7"/>
+<g fill="#A6B995" opacity=".65"><use href="#leaf" transform="translate(947 188) rotate(-30) scale(.8)"/><use href="#leaf" transform="translate(977 209) rotate(91) scale(.85)"/><use href="#leaf" transform="translate(966 225) rotate(-25) scale(.83)"/></g>
+<ellipse cx="967" cy="365" rx="196" ry="18" fill="#A7B396" opacity=".18"/>
+<path d="M807 288H1140V304H807Z" fill="#BB9874"/>
+<path d="M818 304H834V386H818ZM1114 304H1130V386H1114Z" fill="#A98562"/>
+<path d="M834 337H1114V346H834Z" fill="#B49370"/>
+<path d="M837 288H1111" stroke="#D2B18B" stroke-width="3" stroke-linecap="round"/>
+<path d="M891 260Q904 177 891 132M898 209Q861 183 852 159M899 178Q925 158 938 131" stroke="#58764D" stroke-width="3.3" stroke-linecap="round"/>
+<g fill="#6F8E5F"><use href="#leaf" transform="translate(894 163) rotate(10) scale(.87)"/><use href="#leaf" transform="translate(876 195) rotate(-34) scale(.9)"/><use href="#leaf" transform="translate(914 166) rotate(87) scale(.86)"/><use href="#leaf" transform="translate(897 219) rotate(67) scale(.96)"/><use href="#leaf" transform="translate(894 235) rotate(-29) scale(.72)"/></g>
+<g fill="#91A577"><use href="#leaf" transform="translate(860 177) rotate(-20) scale(.76)"/><use href="#leaf" transform="translate(927 147) rotate(94) scale(.7)"/></g>
+<path d="M866 246H924L917 283Q895 290 874 282Z" fill="url(#terracotta)"/><path d="M863 244Q895 239 927 244V251Q895 257 864 251Z" fill="#D6A080"/><ellipse cx="895" cy="244" rx="29" ry="4" fill="#766044"/>
+<path d="M895 245V231" stroke="#617C52" stroke-width="3"/>
+<path d="M1019 249Q1004 215 1020 199Q1040 211 1034 243M1027 247Q1041 205 1062 202Q1069 226 1040 249M1025 243Q1010 201 993 204Q984 223 1014 248" fill="#7C956B"/>
+<path d="M1006 244H1051L1045 282Q1028 288 1014 282Z" fill="#E3D4B1"/><path d="M1003 242H1054V251H1003Z" fill="#E9DDBC"/>
+<path d="M1062 270Q1056 243 1077 239L1105 235Q1117 242 1118 268L1114 281H1067Z" fill="#839783"/><path d="M1106 240Q1131 221 1139 241Q1147 263 1117 268" stroke="#839783" stroke-width="8"/><path d="M1065 249L1041 224L1034 229L1061 267" fill="#839783"/><path d="M1030 221L1043 219L1046 230L1036 233Z" fill="#728974"/><path d="M1075 245Q1086 241 1102 242" stroke="#A6B5A0" stroke-width="3" stroke-linecap="round"/>
+<path d="M756 355Q754 258 731 203M752 308Q717 284 702 252M756 283Q783 254 791 218M758 333Q791 320 809 292" stroke="#67835A" stroke-width="4" stroke-linecap="round"/>
+<g fill="#769267"><use href="#leaf" transform="translate(745 256) rotate(-11) scale(1.1)"/><use href="#leaf" transform="translate(731 292) rotate(-38) scale(1.08)"/><use href="#leaf" transform="translate(771 266) rotate(91) scale(1.06)"/><use href="#leaf" transform="translate(782 323) rotate(83) scale(.95)"/><use href="#leaf" transform="translate(755 326) rotate(9) scale(1.05)"/></g>
+<g fill="#98AB7D"><use href="#leaf" transform="translate(713 268) rotate(-24) scale(.82)"/><use href="#leaf" transform="translate(784 240) rotate(87) scale(.74)"/></g>
+<ellipse cx="756" cy="390" rx="60" ry="8" fill="#9DA98D" opacity=".2"/>
+<path d="M719 336H795L783 385Q756 393 731 385Z" fill="url(#terracotta)"/><path d="M715 334Q754 327 799 334V345Q755 352 716 345Z" fill="#D4A081"/><ellipse cx="757" cy="334" rx="37" ry="5" fill="#755B43"/><path d="M756 337V322" stroke="#6A835A" stroke-width="3"/>
+<path d="M927 351H978L970 382Q951 388 935 381Z" fill="#C59C76"/><path d="M925 348H980V356H925Z" fill="#D8B490"/>
+<path d="M949 348L943 316M955 350L969 321" stroke="#8E9B75" stroke-width="3"/><path d="M939 320Q921 303 931 291Q948 299 943 317M967 324Q963 302 979 293Q988 311 970 324" fill="#7D976B"/>
+<path d="M1095 359l-10 17M1095 359l12 7" stroke="#95856B" stroke-width="4" stroke-linecap="round"/><path d="M1088 366l-11-10 8-9 14 9Z" fill="#CBD1BB"/><path d="M1149 113q12-8 17 2M1159 103q6-10 16-4" stroke="#A6B293" stroke-width="2" stroke-linecap="round"/>
+<path d="M655 348q10-6 17-1M683 381q12-5 20 0M1147 329q9-5 19-1" stroke="#B7C2A7" stroke-width="2" stroke-linecap="round"/>
+</svg>

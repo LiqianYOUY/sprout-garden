@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 340" fill="none" role="img" aria-label="strawberry botanical illustration">
+<defs>
+ <linearGradient id="pot" x1="0" x2="1" y1="0" y2=".8"><stop stop-color="#D99A79"/><stop offset="1" stop-color="#B96E50"/></linearGradient>
+ <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#749063"/><stop offset="1" stop-color="#476B48"/></linearGradient>
+ <linearGradient id="fruit" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E89577"/><stop offset="1" stop-color="#C65445"/></linearGradient>
+ <path id="oval" d="M0 0C-29-4-48-26-42-51C-16-52 4-32 0 0Z"/>
+ <path id="long" d="M0 0C-14-18-22-48-12-83C11-64 14-23 0 0Z"/>
+ <path id="heart" d="M0 0C-26-6-50-24-43-42C-38-55-23-57-13-47C-12-66 7-68 17-55C31-38 14-12 0 0Z"/>
+ <path id="serrated" d="M0 0L-13-5L-17-14L-28-15L-30-25L-38-29L-37-39L-43-46L-36-52L-34-62L-23-61L-15-68L-7-61L3-60L4-49L12-41L7-32L10-22L3-16Z"/>
+</defs><path fill="#F4EDE3" d="M0 0h480v340H0z"/>
+<ellipse cx="244" cy="178" rx="135" ry="118" fill="#FFFFFF" opacity=".26"/>
+
+
+<g stroke="#58754D" stroke-width="4" stroke-linecap="round"><path d="M241 235Q229 172 190 142M242 232Q269 183 297 157M243 231Q245 150 241 112M243 230Q208 195 165 186M249 230Q282 208 323 199"/></g>
+<g fill="url(#leaf)"><use href="#serrated" transform="translate(196 167) rotate(-36) scale(.96)"/><use href="#serrated" transform="translate(222 163) rotate(19) scale(.84)"/><use href="#serrated" transform="translate(246 145) rotate(-9) scale(1.04)"/><use href="#serrated" transform="translate(264 158) rotate(54) scale(.97)"/><use href="#serrated" transform="translate(294 187) rotate(60) scale(.93)"/><use href="#serrated" transform="translate(186 201) rotate(-66) scale(.98)"/><use href="#serrated" transform="translate(259 209) rotate(26) scale(.84)"/></g>
+<g stroke="#A7B58B" stroke-width="1.2" opacity=".7"><path d="M195 164L173 119M245 143L243 95M266 156L297 129M294 185L330 165M185 199L149 181M259 207L271 173"/></g>
+<path d="M220 170Q198 193 205 214M285 175Q306 185 302 211M225 183Q239 197 230 216" stroke="#728B52" stroke-width="2.5"/>
+<path d="M193 201C176 195 176 215 189 232C198 244 201 248 208 241C219 231 231 210 220 202C214 197 206 200 202 202Z" fill="url(#fruit)"/>
+<path d="M191 202L185 195L197 198L201 191L207 199L218 196L214 205L203 201Z" fill="#54764A"/>
+<path d="M294 204C281 199 279 215 289 230C297 242 301 248 307 239C317 224 328 209 314 205C307 202 302 206 301 207Z" fill="#D56C57"/>
+<path d="M289 206L286 199L298 202L302 196L306 202L315 200L312 208L302 204Z" fill="#627F4C"/>
+<path d="M221 214C212 213 211 223 219 233C227 242 229 240 234 232C241 221 239 214 232 214Z" fill="#EAA388"/>
+<g stroke="#F8C5A1" stroke-width="1.8" stroke-linecap="round"><path d="M189 213l1 2m9-5 1 2m10 2-1 2m-14 5 1 2m9 1-1 2m-5 7 1 2M290 216l1 2m9-7 1 2m10 2-1 2m-14 5 1 2m7 5-1 2"/></g>
+<path d="M163 182L157 168" stroke="#7E936A" stroke-width="2"/><g transform="translate(154 164)"><path d="M0 0C-14-1-10-12-3-9C-6-22 8-22 9-10C18-18 26-6 14 0C28 5 19 17 9 7C8 22-6 19-3 6C-17 12-20 0-7-2Z" fill="#FFFDF0"/><circle cx="5" cy="2" r="5" fill="#D6B96B"/></g>
+<ellipse cx="244" cy="305" rx="94" ry="13" fill="#7B8064" opacity=".10"/>
+<path d="M187 238H301L285 297Q245 311 204 297Z" fill="url(#pot)"/>
+<path d="M192 248L206 291Q226 298 243 297L239 248Z" fill="#E6AF89" opacity=".25"/>
+<path d="M185 232Q243 223 304 232L302 246Q244 256 186 246Z" fill="#D69370"/>
+<ellipse cx="245" cy="233" rx="58" ry="8" fill="#9F6046"/>
+<ellipse cx="245" cy="231" rx="53" ry="5" fill="#685342"/>
+<path d="M207 276Q242 285 280 277M211 287Q243 294 277 288" fill="none" stroke="#B77356" stroke-width="1.4" opacity=".45"/>
+</svg>

@@ -1,0 +1,14 @@
+{
+  "name": "sprout-garden",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "一方小院 — a thoughtful, local-first edible garden journal",
+  "scripts": {
+    "dev": "node scripts/serve.js",
+    "test": "node --test tests/*.test.js",
+    "check": "node --check src/app.js && node --check src/core.js && node --check src/storage.js && node --check sw.js",
+    "build": "node scripts/build.js"
+  },
+  "engines": { "node": ">=22" }
+}

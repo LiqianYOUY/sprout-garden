@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 340" fill="none" role="img" aria-label="lettuce botanical illustration">
+<defs>
+ <linearGradient id="pot" x1="0" x2="1" y1="0" y2=".8"><stop stop-color="#D99A79"/><stop offset="1" stop-color="#B96E50"/></linearGradient>
+ <linearGradient id="leaf" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#749063"/><stop offset="1" stop-color="#476B48"/></linearGradient>
+ <linearGradient id="fruit" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#E89577"/><stop offset="1" stop-color="#C65445"/></linearGradient>
+ <path id="oval" d="M0 0C-29-4-48-26-42-51C-16-52 4-32 0 0Z"/>
+ <path id="long" d="M0 0C-14-18-22-48-12-83C11-64 14-23 0 0Z"/>
+ <path id="heart" d="M0 0C-26-6-50-24-43-42C-38-55-23-57-13-47C-12-66 7-68 17-55C31-38 14-12 0 0Z"/>
+ <path id="serrated" d="M0 0L-13-5L-17-14L-28-15L-30-25L-38-29L-37-39L-43-46L-36-52L-34-62L-23-61L-15-68L-7-61L3-60L4-49L12-41L7-32L10-22L3-16Z"/>
+</defs><path fill="#EBEEE0" d="M0 0h480v340H0z"/>
+<ellipse cx="244" cy="178" rx="135" ry="118" fill="#FFFFFF" opacity=".26"/>
+
+
+<g transform="translate(244 228)">
+<path d="M0 6C-40 3-73-10-84-34C-102-39-106-61-91-72C-104-89-93-108-77-107C-79-127-55-133-43-120C-36-144-9-141-2-124C11-145 35-137 38-118C59-133 77-115 72-100C96-105 111-84 98-67C115-53 105-30 87-28C78 1 32 6 0 6Z" fill="#74925C"/>
+<path d="M-2 3C-33-20-65-27-64-52C-81-62-77-81-62-86C-64-107-44-116-29-101C-18-126 10-123 17-100C37-115 59-101 55-84C79-81 79-58 62-50C70-25 25-13-2 3Z" fill="#9FB674"/>
+<path d="M-1 3C-48-8-79-2-98-30C-116-30-123-50-111-62C-123-78-110-95-96-90C-99-109-78-115-67-100C-54-112-39-102-41-87C-20-86-19-62-29-51C-8-34-3-18-1 3Z" fill="#8DA869"/>
+<path d="M5 4C35-4 63-8 81-22C104-14 118-33 107-49C124-60 117-82 101-82C105-102 85-113 73-99C56-115 38-99 43-84C23-80 23-61 34-53C17-35 7-18 5 4Z" fill="#A8BA79"/>
+<path d="M0 6C-20-12-43-37-35-61C-50-75-40-95-24-94C-22-113 0-118 10-101C30-110 44-94 36-78C55-66 43-45 29-45C25-22 10-6 0 6Z" fill="#B5C78A"/>
+<path d="M1 3Q-43-37-88-76M-1 3Q-6-50-8-88M4 3Q55-37 86-79M-44-37L-70-40M-56-50L-57-74M-5-48L-24-64M-5-36L18-57M49-37L75-41M65-55L65-78" stroke="#CFD8A6" stroke-width="2" stroke-linecap="round"/>
+<path d="M-78-105Q-88-88-73-80M-103-61Q-88-63-87-49M71-101Q82-90 76-79M-22-97Q-6-88-13-75M27-77Q11-68 17-56" stroke="#D5DDAD" stroke-width="2" stroke-linecap="round" opacity=".65"/>
+</g>
+<ellipse cx="244" cy="305" rx="94" ry="13" fill="#7B8064" opacity=".10"/>
+<path d="M187 238H301L285 297Q245 311 204 297Z" fill="url(#pot)"/>
+<path d="M192 248L206 291Q226 298 243 297L239 248Z" fill="#E6AF89" opacity=".25"/>
+<path d="M185 232Q243 223 304 232L302 246Q244 256 186 246Z" fill="#D69370"/>
+<ellipse cx="245" cy="233" rx="58" ry="8" fill="#9F6046"/>
+<ellipse cx="245" cy="231" rx="53" ry="5" fill="#685342"/>
+<path d="M207 276Q242 285 280 277M211 287Q243 294 277 288" fill="none" stroke="#B77356" stroke-width="1.4" opacity=".45"/>
+</svg>
