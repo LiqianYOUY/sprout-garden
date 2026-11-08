@@ -1,4 +1,4 @@
-const CACHE='sprout-garden-v1';
+const CACHE='sprout-garden-v2';
 const FILES=['./','./index.html','./src/app.js','./src/core.js','./src/storage.js','./src/catalog.js','./src/styles.css','./manifest.webmanifest','./assets/icon.svg','./assets/hero-garden.svg','./assets/strawberry.svg','./assets/kangkong.svg','./assets/pepper.svg','./assets/tomato.svg','./assets/lettuce.svg','./assets/custom.svg'];
 self.addEventListener('install',event=>{event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(FILES)));self.skipWaiting();});
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key.startsWith('sprout-garden-')&&key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim())));

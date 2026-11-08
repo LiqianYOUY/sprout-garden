@@ -164,7 +164,7 @@ test('calendar limits events to 30 days, contains alarms and fixed-plan notice, 
   assert.ok(ics.startsWith('BEGIN:VCALENDAR\r\n'));
   assert.ok(ics.endsWith('END:VCALENDAR\r\n'));
   assert.ok(unfolded.includes('SUMMARY:草莓\\, A\\;B\\\\C\\nBEGIN:VEVENT'));
-  assert.ok(unfolded.includes('不会随应用更新实时同步'));
+  assert.ok(unfolded.includes('这是导出时的固定计划'));
   assert.ok(unfolded.includes('BEGIN:VALARM\r\nTRIGGER:-PT15M'));
   assert.ok(unfolded.includes('T083000'));
   assert.ok(ics.split('\r\n').every(line => Buffer.byteLength(line) <= 75));

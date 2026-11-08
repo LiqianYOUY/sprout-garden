@@ -253,7 +253,7 @@ export function calendarICS(state) {
   const reminderTime = /^(?:[01]\d|2[0-3]):[0-5]\d$/.test(state.settings.reminderTime || '') ? state.settings.reminderTime : '09:00';
   const time = `${reminderTime.replace(':', '')}00`;
   const stamp = new Date().toISOString().replace(/[-:]/g, '').replace(/\.\d{3}/, '');
-  const description = '从当前养护计划生成的固定计划，不会随应用更新实时同步。完成养护或调整计划后请重新导出，并替换旧日历。浇水前请先检查土壤湿度。';
+  const description = '这是导出时的固定计划。调整养护安排后，请重新导出并替换旧日历。浇水前检查盆土湿度。';
   const lines = ['BEGIN:VCALENDAR', 'VERSION:2.0', 'PRODID:-//Sprout Garden//Garden care//ZH', 'CALSCALE:GREGORIAN', 'METHOD:PUBLISH', `X-WR-CALNAME:${icsEscape(`${state.settings.gardenName} · 未来30天养护`)}`, `X-WR-CALDESC:${icsEscape(description)}`];
   for (const plant of state.plants) {
     if (plant.status !== 'growing') continue;
