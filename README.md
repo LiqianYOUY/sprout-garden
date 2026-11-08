@@ -61,22 +61,23 @@ npm run build
 - 上传支持 JPEG、PNG、WebP，原图最多 20 MiB。界面会在本机压缩为最长边 1200 px 的 JPEG；备份校验限制每张图片解码后不超过 2 MiB。
 - 备份会拒绝未知字段、重复 ID、关联不到植物的日记、非法日期/数值、外链图片与 SVG 数据。导入校验失败不会替换原数据。
 - 日期计算按日历日处理，自动测试覆盖跨年、闰年、悉尼夏令时边界、提醒重复操作、备份拒绝与日历文本转义。
-- 部署流程使用 Node.js 22 执行语法检查、测试与构建，全部通过后才发布。
+- 本次发布前已在 Node.js 22 下通过语法检查、17 项自动测试与静态构建。当前分支发布不会自动运行这些检查，后续修改请先运行上述命令。
 - 离线缓存须先在线成功访问一次。字体使用 Google Fonts，无法联网时使用系统字体；个人记录和照片不会发送给字体服务。
 - 使用现代浏览器的 IndexedDB、原生 `<dialog>`、图片解码与 Service Worker API。安装入口、系统通知和日历导入的表现取决于浏览器与设备；自动测试不等于所有手机系统的兼容性保证。
 
 ## GitHub Pages
 
-仓库的 **Settings → Pages → Build and deployment → Source** 选择 **GitHub Actions**。推送到 `main` 会触发 `docs/pages-workflow.yml`；Pull Request 只检查和构建，不发布。
+当前使用原生分支发布：**Settings → Pages → Source → Deploy from a branch**，选择 `main` 分支、`/ (root)`。项目无需构建也可运行，`.nojekyll` 保证静态文件原样提供。每次推送 `main`，GitHub 自动更新网站。
 
-流程上传 `dist/` 并部署，成功后在 Actions 的 `github-pages` environment 中显示站点地址。资源使用相对路径，支持 `https://<用户名>.github.io/<仓库名>/` 项目站点。配置采用 [GitHub 官方 Pages 工作流](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)。
+- 在线网站：https://liqianyouy.github.io/sprout-garden/
+- 源码仓库：https://github.com/LiqianYOUY/sprout-garden
+
+`docs/pages-workflow.yml` 是可选的 Actions 工作流模板，当前不会触发。需要自动检查、构建后发布时，将它移到 `.github/workflows/pages.yml`，并把 Pages Source 改为 GitHub Actions；上传工作流的令牌需有 `workflow` 权限。模板使用 Node.js 22，检查、测试、构建成功后上传 `dist/`，PR 只检查不部署。
+
+资源使用相对路径，支持 GitHub Pages 项目子目录。参考：[GitHub 官方 Pages 文档](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)。
 
 ## 仓库与隐私
 
 仓库包含应用代码、通用种植模板与界面插画。私人 ChatGPT 聊天记录、真实植物照片、浏览器数据库、导出的 JSON 备份均不属于源码，也不应提交到 Git。初始模板不预填个人种植事实。
 
 当前版本没有上传个人日记或照片的接口。公开部署公开的是应用代码，不会把某个浏览器里的花园记录公开。若以后添加账号和云同步，需要另外设计认证、访问权限与数据迁移。
-
-### 当前 GitHub Pages 发布方式
-
-当前使用 GitHub Pages 原生分支发布：`main` 分支的根目录。这个项目是原生 HTML/CSS/JS，无需构建也可运行；`.nojekyll` 保证静态文件原样提供。每次推送 main 后，GitHub 自动更新网站。`docs/pages-workflow.yml` 是可选的 Actions 工作流模板，不在当前发布路径中；只有需要 Actions 构建并且令牌具有 workflow 权限时才将它移入 `.github/workflows/`。
